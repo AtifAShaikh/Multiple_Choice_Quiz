@@ -1,0 +1,67 @@
+/* resets */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-color: rgb(39, 47, 61);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(190, 204, 229);
+}
+
+/* css for the container element */
+#container{
+    width: 50%;
+    height: 50%;
+    margin: 100px auto;
+}
+
+/* css for all chidren of the container */
+#container > div{
+    background-color: rgb(92 105 127);;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgb(24, 24, 24) 0px 0px 10px;
+
+}
+
+
+/* start screen css */
+#start-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.start-button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: large;
+    margin-top: 20px;
+    background-color: rgb(159, 197, 255);
+}
+
+
+#multiple-choice{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#score-screen{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#leaderboard-screen{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
