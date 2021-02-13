@@ -30,7 +30,7 @@ body{
 
 /* start screen css */
 #start-screen{
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -42,11 +42,12 @@ body{
     font-size: large;
     margin-top: 20px;
     background-color: rgb(159, 197, 255);
+    border-width: 0px;
 }
 
 /* multiple choice screen css */
 #multiple-choice{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -81,6 +82,27 @@ body{
     flex-direction: column;
 }
 
+.name-input{
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: large;
+    margin-top: 20px;
+    background-color: rgb(159, 197, 255);
+    border-width: 0px;
+    text-align: center;
+}
+
+.confirm-button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: large;
+    margin-top: 20px;
+    background-color: rgb(159, 197, 255);
+    border-width: 0px;
+}
+
+
+
 /* leaderboard screen css */
 #leaderboard-screen{
     display: none;
@@ -88,3 +110,23 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+#leaderboard-screen > h1{
+    margin-bottom: 10px;
+}
+
+#leaderboard-screen > ol > li{
+    margin-bottom: 10px;
+}
+
+.restart-button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: large;
+    margin-top: 20px;
+    background-color: rgb(159, 197, 255);
+    border-width: 0px;
+}
+
+
+
