@@ -28,4 +28,17 @@ questions.push(createQuestionObject("Who is considered as the first programmer",
                                     "Jack black",
                                     1));
 
+questions.push(createQuestionObject("Where does the programming term bug originate from?",
+                                    "As an acronym",
+                                    "as a figure of speech",
+                                    "As real bug inside computer",
+                                    "Named after someone",
+                                    3));
+                                    
+questions.push(createQuestionObject("What was the first computer game ever made",
+                                    "Tetris",
+                                    "SpaceWars",
+                                    "Pong",
+                                    "Fortnite",
+                                    2));
 
