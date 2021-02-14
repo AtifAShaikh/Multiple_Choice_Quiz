@@ -7,11 +7,15 @@
 </head>
 
 <body>
+    <!-- contains all the various divs that serve as the screens of the website -->
     <div id="container">
+        <!-- the screen user sees when they first enter website
+        all it has is a welcome and a start button -->
         <div id="start-screen">
             <h1>Welcome to the Quiz</h1>
             <button type="button" class="start-button">Click here to begin</button>
         </div>
+        <!-- this screen is where the multiple choice questions are displayed along with the timer -->
         <div id="multiple-choice">
             <h2 class="time" id="time">00</h2>
             <h3 class=question-display>The Current Question is displayed here</h3>
@@ -20,12 +24,14 @@
             <div class="answer-choice" isCorrect="">Choice 3</div>
             <div class="answer-choice" isCorrect="">Choice 4</div>
         </div>
+        <!-- this is where the final score is displayed, it also has a section to enter a name to save your score -->
         <div id="score-screen">
             <h3>Final Score</h3>
             <h1 class="final-score-display"></h1>
             <input type="text" class="name-input" name="fname" id="fname" placeholder="enter your name">
             <button type="button" class="confirm-button">Confirm</button>
         </div>
+        <!-- displays all the scores in order of highest to lowest -->
         <div id="leaderboard-screen">
             <h1>Leader Board</h1>
             <ul class="list-of-scores" style="list-style-type:none;">
@@ -33,7 +39,9 @@
             <button type="button" class="restart-button">Click here to try again</button>
         </div>
     </div>
+    <!-- this script generates the list that contains the question objects -->
     <script src="./generateQuestions.js"></script>
+    <!-- this contains the script that runs the functionality of the website -->
     <script src="script.js"></script>
 </body>
 </html>
